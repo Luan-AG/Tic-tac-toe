@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
 *, *::after, *::before {
     box-sizing: border-box;
-    font-family: Tahoma, sans-serif;
+    font-family: 'Rock Salt', cursive;
 }
   
 :root {
@@ -11,16 +14,18 @@
 body {
     margin: 0;
     background-color: #01b64c;
+    
 }
   
 h1 {
     width: 100%;
-    margin: 50px 0 0 0;
+    margin: 20px 0 0 0;
     text-align: center;
+    font-size: 2.5rem;
 }
 
 .board {
-    height: 80vh;
+    height: 70vh;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -132,22 +137,22 @@ h1 {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 5rem;
+    font-size: 3rem;
     flex-direction: column;
 }
   
 .winning-message button {
-    font-size: 3rem;
-    background-color: white;
+    font-size: 1rem;
+    background-color: #01b64c;
     border: 1px solid black;
-    padding: .25em .5em;
+    padding: 0rem 2rem;
     cursor: pointer;
 }
   
 .winning-message button:hover {
-    background-color: black;
-    color: white;
-    border-color: white;
+    background-color: #015f28;
+    color: #e2e2e2;
+    border-color: #e2e2e2;
 }
   
 .winning-message.show {
